@@ -28,21 +28,24 @@
 		</div>
 		<div id="navbar" class="collapse navbar-collapse">
 			<ul class="nav navbar-nav">
-				<li id="earth"><a href="#" onClick="earthTransform()">Earth</a></li>
-				<li id="fire"><a href="#" onClick="fireTransform()">Fire</a></li>
-				<li id="water"><a href="#" onClick="waterTransform()">Water</a></li>
-				<li id="air"><a href="#" onClick="airTransform()">Air</a></li>
-			</ul>
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-				<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+				<li id="earth"><a href="#" onClick="earthTransform()"><img src="images/earth_icon.png" class="nav-btn-img" alt=""></a></li>
+				<li id="fire"><a href="#" onClick="fireTransform()"><img src="images/earth_icon.png" class="nav-btn-img" alt=""></a></li>
+				<li id="water"><a href="#" onClick="waterTransform()">8</a></li>
+				<li id="water"><a href="#" onClick="waterTransform()"><img src="images/earth_icon.png" class="nav-btn-img" alt=""></a></li>
+				<li id="air"><a href="#" onClick="airTransform()"><img src="images/earth_icon.png" class="nav-btn-img" alt=""></a></li>
 			</ul>
 		</div>
 	</nav>
-	<div id="gonnaChange" class="jumbotron">
-		<div class="container-fluid">
+		<div id="gonnaChange" class="container-fluid">
+		<div  class="jumbotron">
+		<h2 id="quoteText">Quote generator</h2>
+		<p id="sourceText">Click on the button below to generate <u>earth</u> quotes</p>
+		</div>
+		<div class="gen-btn">
+		<button type="button" class="btn btn-success" onClick="quoteGenerate()">Generate</button>
 		</div>
 	</div>
+
 </body>
 
 </html>

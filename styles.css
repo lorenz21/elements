@@ -16,13 +16,47 @@ body {
 	padding: 0;
 }
 
-.jumbotron {
+.jumbotron{
+	background: none;
+	color: white;
+	height: 38rem;
+}
+
+.img-circle{
+	background-color: white;
+}
+
+.container-fluid {
 	background-color: white;
 	min-height: 100%;
 }
 
-ul.nav li {
-	font-size: 24px;
+.gen-btn{
+	text-align: center;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar {
+  border: none;
+  background: none;
+}
+
+ul.nav li{
+	padding: 1rem 5rem;
+}
+
+ul.nav li a{
+	font-size: 1rem;
+	padding: 0;
 }
 
 ul.nav li#fire a:hover {
@@ -40,4 +74,14 @@ ul.nav li#air a:hover {
 
 ul.nav li#water a:hover {
 	background-color: #0374A2;
+}
+
+.nav-btn-img{
+	width: 14rem;
+	height: 7rem;
+}
+
+h2{
+	padding-top: 20rem;
+	text-align: left;
 }
