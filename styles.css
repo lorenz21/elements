@@ -21,19 +21,19 @@ body {
 	min-height: 100%;
 }
 
-ul.nav li.fire a:hover {
+ul.nav li#fire a:hover {
 	background-color: #C01A00;
 }
 
-ul.nav li.earth a:hover {
+ul.nav li#earth a:hover {
 	background-color: #04471C;
 }
 
-ul.nav li.air a:hover {
+ul.nav li#air a:hover {
 	background-color: #EAEAEF;
 	color: black;
 }
 
-ul.nav li.water a:hover {
+ul.nav li#water a:hover {
 	background-color: #0374A2;
 }
