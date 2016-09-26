@@ -1,38 +1,12 @@
-html,
-body {
-	width: 100%;
-	height: 100%;
-}
-
-#gonnaChange {
-	background-image: url("images/earth2.jpg");
-	background-position: center;
-	background-attachment: fixed;
-	background-size: cover;
-}
-
 * {
 	margin: 0;
 	padding: 0;
 }
 
-.jumbotron{
-	background: none;
-	color: white;
-	height: 38rem;
-}
-
-.img-circle{
-	background-color: white;
-}
-
-.container-fluid {
-	background-color: white;
-	min-height: 100%;
-}
-
-.gen-btn{
-	text-align: center;
+html,
+body {
+	width: 100%;
+	height: 100%;
 }
 
 .navbar .navbar-nav {
@@ -81,7 +55,36 @@ ul.nav li#water a:hover {
 	height: 7rem;
 }
 
+#gonnaChange {
+	background-image: url("images/earth2.jpg");
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.jumbotron{
+	background: none;
+	color: white;
+	height: 10rem;
+	margin-top: 10rem;
+}
+
+.img-circle{
+	background-color: white;
+}
+
+.container-fluid {
+	background-color: white;
+	min-height: 100%;
+}
+
+.gen-btn{
+	text-align: center;
+	padding-top: 22rem;
+}
+
+
 h2{
-	padding-top: 20rem;
+	padding-top: 10rem;
 	text-align: left;
 }
