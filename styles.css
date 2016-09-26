@@ -21,6 +21,10 @@ body {
 	min-height: 100%;
 }
 
+ul.nav li {
+	font-size: 24px;
+}
+
 ul.nav li#fire a:hover {
 	background-color: #C01A00;
 }
