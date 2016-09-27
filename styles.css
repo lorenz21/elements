@@ -22,6 +22,9 @@ body {
 .navbar {
   border: none;
   background: none;
+	-webkit-animation-delay: 2s;
+	-webkit-animation-duration: 100s;
+	-webkit-animation-iteration-count: 4;
 }
 
 ul.nav li{
@@ -51,7 +54,7 @@ ul.nav li#water a:hover {
 }
 
 .nav-btn-img{
-	width: 14rem;
+	width: 9rem;
 	height: 7rem;
 }
 
@@ -83,8 +86,11 @@ ul.nav li#water a:hover {
 	padding-top: 22rem;
 }
 
-
-h2{
-	padding-top: 10rem;
-	text-align: left;
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 35px;
 }
