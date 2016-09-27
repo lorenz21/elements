@@ -45,21 +45,21 @@ quotes[0] = {
 						});
 					});
 					$( "#air" ).click(function() {
-						$('#gonnaChange').addClass('animated bounceInLeft');
-						$('#gonnaChange').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
-							$('#gonnaChange').removeClass('animated bounceInLeft');
+						$('#quoteText').addClass('animated bounceInLeft');
+						$('#quoteText').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+							$('#quoteText').removeClass('animated bounceInLeft');
 						});
 					});
 					$( "#fire" ).click(function() {
-						$('#gonnaChange').addClass('animated fadeInDownBig');
-						$('#gonnaChange').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
-							$('#gonnaChange').removeClass('animated fadeInDownBig');
+						$('#quoteText').addClass('animated fadeInDownBig');
+						$('#quoteText').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+							$('#quoteText').removeClass('animated fadeInDownBig');
 						});
 					});
 					$( "#water" ).click(function() {
-						$('#gonnaChange').addClass('animated rotateIn');
-						$('#gonnaChange').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
-							$('#gonnaChange').removeClass('animated rotateIn');
+						$('#quoteText').addClass('animated rotateIn');
+						$('#quoteText').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+							$('#quoteText').removeClass('animated rotateIn');
 						});
 					});
 				});
