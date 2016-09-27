@@ -36,7 +36,7 @@ quotes[0] = {
 					document.getElementById("quoteText").innerHTML = '"'+quotes[count].quote+'"';
 					document.getElementById("sourceText").innerHTML = quotes[count].source;
 				}
-
+				
 				$(document).ready(function(){
 					$( "#earth" ).click(function() {
 						$('#quoteText').addClass('animated fadeIn');
