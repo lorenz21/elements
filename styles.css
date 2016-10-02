@@ -83,7 +83,8 @@ ul.nav li#water a:hover {
 
 .gen-btn{
 	text-align: center;
-	padding-top: 22rem;
+	padding-top: 8rem;
+	height: 1rem;
 }
 
 .btn-circle.btn-xl {
