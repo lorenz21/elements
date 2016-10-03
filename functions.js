@@ -39,27 +39,19 @@ quotes[0] = {
 
 				$(document).ready(function(){
 					$( "#earth" ).click(function() {
-						$('#quoteText').addClass('animated fadeIn');
-						$('#quoteText').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
-							$('#quoteText').removeClass('animated fadeIn');
-						});
+						$( "#quoteText" ).fadeOut( "slow" );
+						$( "#quoteText" ).fadeIn( "slow" );
 					});
 					$( "#air" ).click(function() {
-						$('#quoteText').addClass('animated bounceInLeft');
-						$('#quoteText').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
-							$('#quoteText').removeClass('animated bounceInLeft');
-						});
+						$( "#quoteText" ).fadeOut( "slow" );
+						$( "#quoteText" ).fadeIn( "slow" );
 					});
 					$( "#fire" ).click(function() {
-						$('#quoteText').addClass('animated fadeInDownBig');
-						$('#quoteText').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
-							$('#quoteText').removeClass('animated fadeInDownBig');
-						});
+						$( "#quoteText" ).slideUp( "slow" );
+						$( "#quoteText" ).slideDown( "slow" );
 					});
 					$( "#water" ).click(function() {
-						$('#quoteText').addClass('animated rotateIn');
-						$('#quoteText').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
-							$('#quoteText').removeClass('animated rotateIn');
-						});
+						$( "#quoteText" ).slideUp( "slow" );
+						$( "#quoteText" ).slideDown( "slow" );
 					});
 				});
