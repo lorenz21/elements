@@ -4,10 +4,11 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="styles.css">
-	<link rel="stylesheet" href="animate.css">
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="functions.js" type="text/javascript"></script>
 	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
@@ -36,14 +37,15 @@
 		</div>
 	</nav>
 		<div id="gonnaChange" class="container-fluid">
+			<div class="layer">
 		<div  class="jumbotron">
 		<p id="quoteText">Quote generator</p>
 		<p id="sourceText">Click on the button below to generate <u>earth</u> quotes</p>
 		</div>
-		<div class="gen-btn">
-		<button type="button" class="btn btn-default btn-circle btn-xl" onClick="quoteGenerate()"><i class="glyphicon glyphicon-refresh"></i></button>
-		</div>
 	</div>
-
+</div>
+	<div class="gen-btn">
+		<button class="btn btn-default btn-circle btn-xl" onClick="quoteGenerate()"><i class="glyphicon glyphicon-refresh"></i></button>
+		</div>
 </body>
 </html>
